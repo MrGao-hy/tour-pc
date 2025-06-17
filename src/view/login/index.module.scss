@@ -1,0 +1,47 @@
+.login {
+  height: 100vh;
+  //background: url("https://gss0.baidu.com/-Po3dSag_xI4khGko9WTAnF6hhy/zhidao/pic/item/86d6277f9e2f0708db473c63eb24b899a901f217.jpg") no-repeat;
+  background: url("@/static/image/login_bg.jpeg") no-repeat;
+  background-size: 100% 100%;
+
+  .login_container {
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-200px, -300px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px 50px;
+    box-sizing: border-box;
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.1);
+
+    &__logo {
+      width: 120px;
+      height: auto;
+      margin: 20px auto;
+      display: block;
+    }
+
+    &__bottom {
+      display: flex;
+      justify-content: space-around;
+      color: #FFFFFF;
+
+      &__left {
+      }
+
+      &__right {
+      }
+    }
+  }
+
+  &_footer {
+    position: absolute;
+    bottom: 20px;
+    color: #FFFFFF;
+    left: calc(50% - 100px);
+  }
+}

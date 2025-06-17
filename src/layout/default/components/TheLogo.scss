@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  //justify-content: space-around;
+  padding: 0 20px;
+  align-items: center;
+
+  &_text {
+    white-space: nowrap;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 10px;
+    background-image: linear-gradient(to right, #0a98d2, #1ffdc4, #0a98d2, orange, #0a98d2, #1ffdc4, #0a98d2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-size: 200% 100%;
+    animation: bgp 8s infinite linear;
+  }
+}

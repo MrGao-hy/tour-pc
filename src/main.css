@@ -1,0 +1,73 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.ant-table-body {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgb(219, 219, 219);
+}
+
+
+.site-layout {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.site-content {
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px 0;
+    overflow: initial;
+    min-height: auto;
+}
+
+.site-footer .ant-pro-global-footer {
+    margin-top: 30px;
+}
+
+.dark .ant-pro-global-footer-list-link {
+    color: #ccc;
+}
+
+.dark .ant-pro-global-footer-list-link:hover {
+    color: #fff;
+}
+
+.dark .ant-pro-global-footer-copyright {
+    color: #ccc;
+}
+
+.dark {
+    background-color: #000;
+}

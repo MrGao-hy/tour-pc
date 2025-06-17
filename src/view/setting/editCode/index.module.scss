@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex: 1;
+  :global {
+    .ant-card-body {
+      display: flex;
+      width: 100%;
+      padding: 0 !important;
+    }
+    .ant-card {
+      display: flex;
+    }
+  }
+}

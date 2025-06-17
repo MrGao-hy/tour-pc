@@ -1,0 +1,9 @@
+.ant-tabs-top {
+  //.ant-tabs-nav-wrap {
+  //  margin-bottom: 50px;
+  //}
+
+  .ant-tabs-nav::before {
+    border: none !important;
+  }
+}
