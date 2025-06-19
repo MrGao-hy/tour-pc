@@ -23,7 +23,7 @@ const constellationEnum = {
     '天秤座': '天秤座',
     '天蝎座': '天蝎座',
     '射手座': '射手座',
-    '魔蝎座': '魔蝎座',
+    '摩羯座': '摩羯座',
 }
 
 const provinceEnum = {

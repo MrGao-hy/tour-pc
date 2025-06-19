@@ -19,7 +19,7 @@ const selectData = [
   { name: "天秤座", value: "天秤座" },
   { name: "天蝎座", value: "天蝎座" },
   { name: "射手座", value: "射手座" },
-  { name: "魔蝎座", value: "魔蝎座" }
+  { name: "摩羯座", value: "摩羯座" }
 ];
 
 const EditUserInfo = () => {
