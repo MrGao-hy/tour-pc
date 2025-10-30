@@ -50,8 +50,8 @@ const EditUserInfo = () => {
     },
     {
       label: "邮箱",
-      field: "emit",
-      type: FormTypeVo.EMIT,
+      field: "email",
+      type: FormTypeVo.EMAIL,
       rules: [ { pattern: /^[a-zA-Z0-9]+([-_.][A-Za-zd]+)*@([a-zA-Z0-9]+[-.])+[A-Za-zd]{2,5}$/, message: "请输入正确的邮箱" } ]
     },
     {

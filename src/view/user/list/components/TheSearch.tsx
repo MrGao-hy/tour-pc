@@ -100,7 +100,7 @@ const TheSearch = (props: PropsType): React.ReactElement => {
           />
         <ProFormText name="phone"
                      label="手机号" />
-        <ProFormText name="emit"
+        <ProFormText name="email"
                      label="邮箱" />
         <ProFormText name="idCard"
                      label="身份证号" />

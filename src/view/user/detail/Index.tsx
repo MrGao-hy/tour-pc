@@ -51,7 +51,7 @@ const UserDetail = () => {
         <Descriptions.Item label="ID">{ userDetail.id }</Descriptions.Item>
         <Descriptions.Item label="身份证号">{ userDetail.idCard }</Descriptions.Item>
         <Descriptions.Item label="星座">{ userDetail.constellation }</Descriptions.Item>
-        <Descriptions.Item label="邮箱">{ userDetail.emit }</Descriptions.Item>
+        <Descriptions.Item label="邮箱">{ userDetail.email }</Descriptions.Item>
         <Descriptions.Item label="省/自治区">{ userDetail.province }</Descriptions.Item>
         <Descriptions.Item label="市">{ userDetail.city }</Descriptions.Item>
         <Descriptions.Item label="区">{ userDetail.counties }</Descriptions.Item>

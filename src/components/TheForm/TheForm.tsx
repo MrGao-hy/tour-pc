@@ -37,7 +37,7 @@ export enum FormTypeVo {
   BUTTON = 'button',
   DATE = 'date',
   RANGE_DATE = 'rangeDate',
-  EMIT = 'emit',
+  EMAIL = 'email',
   ADDRESS = 'address'
 }
 type FileType = Parameters<GetProp<UploadProps, 'beforeUpload'>>[0];
@@ -68,13 +68,13 @@ interface ColumnsVo {
   maxCount?: number;
 }
 
-interface PropsType extends EmitType {
+interface PropsType extends EmailType {
   columns: ColumnsVo[];
   disabled?: boolean;
   data: any;
 }
 
-interface EmitType {
+interface EmailType {
   sendDataFn: (values: any) => void;
 }
 
@@ -141,7 +141,7 @@ const TheForm = (props: PropsType) => {
                          getValueProps={ (value) => ({ value: item.type === "date" && value ? dayjs(value) : value }) }
                          key={ item.field }>
                 { item.type === "input" && <Input /> }
-                { item.type === "emit" && <AutoComplete style={ {
+                { item.type === "email" && <AutoComplete style={ {
                   width: 200
                 } } onSearch={ handleSearch } placeholder="请输入邮箱地址">
                   { options.map((email) => (

@@ -69,7 +69,7 @@ interface UserInfoType extends UserVo, UserIdVo {
   /**
    * 邮箱
    * */
-  emit?: string;
+  email?: string;
   /**
    * 注册时间
    * */

@@ -216,7 +216,7 @@ const UserList = () => {
     },
     { title: "手机号", dataIndex: "phone", key: "phone" },
     { title: "身份证号", dataIndex: "idCard", key: "idCard" },
-    { title: "邮箱", dataIndex: "emit", key: "emit" },
+    { title: "邮箱", dataIndex: "email", key: "email" },
     { title: "出生日期", dataIndex: "birthDate", key: "birthDate" },
     { title: "性别", dataIndex: "sex", key: "sex" },
     { title: "年龄", dataIndex: "age", key: "age" },

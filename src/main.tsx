@@ -4,7 +4,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import "./main.css";
 import { Provider } from "react-redux";
-import { store, persistor } from "@/store/index";
+import { store, persistor } from "@/store";
 import { PersistGate } from "redux-persist/integration/react";
 import { DarkModeConfigProvider } from "@/layout/default/components/action/DarkModeSwitch";
 import { ThemeColorConfigProvider } from "@/layout/default/components/action/ThemeColor";
